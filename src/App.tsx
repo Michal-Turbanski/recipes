@@ -1,10 +1,12 @@
+import Navbar from "./components/Navbar.tsx";
 import RecipesList from "./components/RecipesList.tsx";
 
 function App() {
   return (
-    <>
-      <RecipesList />
-    </>
+      <>
+          <Navbar/>
+          <RecipesList/>
+      </>
   )
 }
 
