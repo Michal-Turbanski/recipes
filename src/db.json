@@ -1,0 +1,112 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Baked Salmon",
+      "ingredients": [
+        { "id": 1, "name": "Salmon", "amount": 1, "measurement": "l lb" },
+        { "id": 2, "name": "Pine Nuts", "amount": 1, "measurement": "cup" },
+        { "id": 3, "name": "Butter Lettuce", "amount": 2, "measurement": "cups" },
+        { "id": 4, "name": "Yellow Squash", "amount": 1, "measurement": "med" },
+        { "id": 5, "name": "Olive Oil", "amount": 0.5, "measurement": "cup" },
+        { "id": 6, "name": "Garlic", "amount": 3, "measurement": "cloves" }
+      ],
+      "description": [
+        "Preheat the oven to 350 degrees.",
+        "Spread the olive oil around a glass baking dish.",
+        "Add the salmon, garlic, and pine nuts to the dish.",
+        "Bake for 15 minutes.",
+        "Add the yellow squash and put back in the oven for 30 mins.",
+        "Remove from oven and let cool for 15 minutes. Add the lettuce and serve."
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Fish Tacos",
+      "ingredients": [
+        { "id": 1, "name": "Tilapia", "amount": 1, "measurement": "l lb" },
+        { "id": 2, "name": "Cheese", "amount": 1, "measurement": "cup" },
+        { "id": 3, "name": "Iceberg Lettuce", "amount": 2, "measurement": "cups" },
+        { "id": 4, "name": "Tomatoes", "amount": 2, "measurement": "large" },
+        { "id": 5, "name": "Tortillas", "amount": 3, "measurement": "med" }
+      ],
+      "description": [
+        "Cook the fish on the grill until hot.",
+        "Place the fish on the 3 tortillas.",
+        "Top them"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Baked Salmon 2",
+      "ingredients": [
+        { "id": 1, "name": "Salmon", "amount": 1, "measurement": "l lb" },
+        { "id": 2, "name": "Pine Nuts", "amount": 1, "measurement": "cup" },
+        { "id": 3, "name": "Butter Lettuce", "amount": 2, "measurement": "cups" },
+        { "id": 4, "name": "Yellow Squash", "amount": 1, "measurement": "med" },
+        { "id": 5, "name": "Olive Oil", "amount": 0.5, "measurement": "cup" },
+        { "id": 6, "name": "Garlic", "amount": 3, "measurement": "cloves" }
+      ],
+      "description": [
+        "Preheat the oven to 350 degrees.",
+        "Spread the olive oil around a glass baking dish.",
+        "Add the salmon, garlic, and pine nuts to the dish.",
+        "Bake for 15 minutes.",
+        "Add the yellow squash and put back in the oven for 30 mins.",
+        "Remove from oven and let cool for 15 minutes. Add the lettuce and serve."
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Fish Tacos 2",
+      "ingredients": [
+        { "id": 1, "name": "Tilapia", "amount": 1, "measurement": "l lb" },
+        { "id": 2, "name": "Cheese", "amount": 1, "measurement": "cup" },
+        { "id": 3, "name": "Iceberg Lettuce", "amount": 2, "measurement": "cups" },
+        { "id": 4, "name": "Tomatoes", "amount": 2, "measurement": "large" },
+        { "id": 5, "name": "Tortillas", "amount": 3, "measurement": "med" }
+      ],
+      "description": [
+        "Cook the fish on the grill until hot.",
+        "Place the fish on the 3 tortillas.",
+        "Top them"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Baked Salmon 3",
+      "ingredients": [
+        { "id": 1, "name": "Salmon", "amount": 1, "measurement": "l lb" },
+        { "id": 2, "name": "Pine Nuts", "amount": 1, "measurement": "cup" },
+        { "id": 3, "name": "Butter Lettuce", "amount": 2, "measurement": "cups" },
+        { "id": 4, "name": "Yellow Squash", "amount": 1, "measurement": "med" },
+        { "id": 5, "name": "Olive Oil", "amount": 0.5, "measurement": "cup" },
+        { "id": 6, "name": "Garlic", "amount": 3, "measurement": "cloves" }
+      ],
+      "description": [
+        "Preheat the oven to 350 degrees.",
+        "Spread the olive oil around a glass baking dish.",
+        "Add the salmon, garlic, and pine nuts to the dish.",
+        "Bake for 15 minutes.",
+        "Add the yellow squash and put back in the oven for 30 mins.",
+        "Remove from oven and let cool for 15 minutes. Add the lettuce and serve."
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Fish Tacos 3",
+      "ingredients": [
+        { "id": 1, "name": "Tilapia", "amount": 1, "measurement": "l lb" },
+        { "id": 2, "name": "Cheese", "amount": 1, "measurement": "cup" },
+        { "id": 3, "name": "Iceberg Lettuce", "amount": 2, "measurement": "cups" },
+        { "id": 4, "name": "Tomatoes", "amount": 2, "measurement": "large" },
+        { "id": 5, "name": "Tortillas", "amount": 3, "measurement": "med" }
+      ],
+      "description": [
+        "Cook the fish on the grill until hot.",
+        "Place the fish on the 3 tortillas.",
+        "Top them"
+      ]
+    }
+  ]
+}
