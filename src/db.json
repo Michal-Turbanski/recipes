@@ -4,12 +4,12 @@
       "id": 1,
       "name": "Baked Salmon",
       "ingredients": [
-        { "id": 1, "name": "Salmon", "amount": 1, "measurement": "l lb" },
-        { "id": 2, "name": "Pine Nuts", "amount": 1, "measurement": "cup" },
-        { "id": 3, "name": "Butter Lettuce", "amount": 2, "measurement": "cups" },
-        { "id": 4, "name": "Yellow Squash", "amount": 1, "measurement": "med" },
-        { "id": 5, "name": "Olive Oil", "amount": 0.5, "measurement": "cup" },
-        { "id": 6, "name": "Garlic", "amount": 3, "measurement": "cloves" }
+        { "id": 1, "name": "Salmon", "amount": 1, "unit": "l lb" },
+        { "id": 2, "name": "Pine Nuts", "amount": 1, "unit": "cup" },
+        { "id": 3, "name": "Butter Lettuce", "amount": 2, "unit": "cups" },
+        { "id": 4, "name": "Yellow Squash", "amount": 1, "unit": "med" },
+        { "id": 5, "name": "Olive Oil", "amount": 0.5, "unit": "cup" },
+        { "id": 6, "name": "Garlic", "amount": 3, "unit": "cloves" }
       ],
       "description": [
         "Preheat the oven to 350 degrees.",
@@ -24,11 +24,11 @@
       "id": 2,
       "name": "Fish Tacos",
       "ingredients": [
-        { "id": 1, "name": "Tilapia", "amount": 1, "measurement": "l lb" },
-        { "id": 2, "name": "Cheese", "amount": 1, "measurement": "cup" },
-        { "id": 3, "name": "Iceberg Lettuce", "amount": 2, "measurement": "cups" },
-        { "id": 4, "name": "Tomatoes", "amount": 2, "measurement": "large" },
-        { "id": 5, "name": "Tortillas", "amount": 3, "measurement": "med" }
+        { "id": 1, "name": "Tilapia", "amount": 1, "unit": "l lb" },
+        { "id": 2, "name": "Cheese", "amount": 1, "unit": "cup" },
+        { "id": 3, "name": "Iceberg Lettuce", "amount": 2, "unit": "cups" },
+        { "id": 4, "name": "Tomatoes", "amount": 2, "unit": "large" },
+        { "id": 5, "name": "Tortillas", "amount": 3, "unit": "med" }
       ],
       "description": [
         "Cook the fish on the grill until hot.",
@@ -40,12 +40,12 @@
       "id": 3,
       "name": "Baked Salmon 2",
       "ingredients": [
-        { "id": 1, "name": "Salmon", "amount": 1, "measurement": "l lb" },
-        { "id": 2, "name": "Pine Nuts", "amount": 1, "measurement": "cup" },
-        { "id": 3, "name": "Butter Lettuce", "amount": 2, "measurement": "cups" },
-        { "id": 4, "name": "Yellow Squash", "amount": 1, "measurement": "med" },
-        { "id": 5, "name": "Olive Oil", "amount": 0.5, "measurement": "cup" },
-        { "id": 6, "name": "Garlic", "amount": 3, "measurement": "cloves" }
+        { "id": 1, "name": "Salmon", "amount": 1, "unit": "l lb" },
+        { "id": 2, "name": "Pine Nuts", "amount": 1, "unit": "cup" },
+        { "id": 3, "name": "Butter Lettuce", "amount": 2, "unit": "cups" },
+        { "id": 4, "name": "Yellow Squash", "amount": 1, "unit": "med" },
+        { "id": 5, "name": "Olive Oil", "amount": 0.5, "unit": "cup" },
+        { "id": 6, "name": "Garlic", "amount": 3, "unit": "cloves" }
       ],
       "description": [
         "Preheat the oven to 350 degrees.",
@@ -60,11 +60,11 @@
       "id": 4,
       "name": "Fish Tacos 2",
       "ingredients": [
-        { "id": 1, "name": "Tilapia", "amount": 1, "measurement": "l lb" },
-        { "id": 2, "name": "Cheese", "amount": 1, "measurement": "cup" },
-        { "id": 3, "name": "Iceberg Lettuce", "amount": 2, "measurement": "cups" },
-        { "id": 4, "name": "Tomatoes", "amount": 2, "measurement": "large" },
-        { "id": 5, "name": "Tortillas", "amount": 3, "measurement": "med" }
+        { "id": 1, "name": "Tilapia", "amount": 1, "unit": "l lb" },
+        { "id": 2, "name": "Cheese", "amount": 1, "unit": "cup" },
+        { "id": 3, "name": "Iceberg Lettuce", "amount": 2, "unit": "cups" },
+        { "id": 4, "name": "Tomatoes", "amount": 2, "unit": "large" },
+        { "id": 5, "name": "Tortillas", "amount": 3, "unit": "med" }
       ],
       "description": [
         "Cook the fish on the grill until hot.",
@@ -76,12 +76,12 @@
       "id": 5,
       "name": "Baked Salmon 3",
       "ingredients": [
-        { "id": 1, "name": "Salmon", "amount": 1, "measurement": "l lb" },
-        { "id": 2, "name": "Pine Nuts", "amount": 1, "measurement": "cup" },
-        { "id": 3, "name": "Butter Lettuce", "amount": 2, "measurement": "cups" },
-        { "id": 4, "name": "Yellow Squash", "amount": 1, "measurement": "med" },
-        { "id": 5, "name": "Olive Oil", "amount": 0.5, "measurement": "cup" },
-        { "id": 6, "name": "Garlic", "amount": 3, "measurement": "cloves" }
+        { "id": 1, "name": "Salmon", "amount": 1, "unit": "l lb" },
+        { "id": 2, "name": "Pine Nuts", "amount": 1, "unit": "cup" },
+        { "id": 3, "name": "Butter Lettuce", "amount": 2, "unit": "cups" },
+        { "id": 4, "name": "Yellow Squash", "amount": 1, "unit": "med" },
+        { "id": 5, "name": "Olive Oil", "amount": 0.5, "unit": "cup" },
+        { "id": 6, "name": "Garlic", "amount": 3, "unit": "cloves" }
       ],
       "description": [
         "Preheat the oven to 350 degrees.",
@@ -96,11 +96,11 @@
       "id": 6,
       "name": "Fish Tacos 3",
       "ingredients": [
-        { "id": 1, "name": "Tilapia", "amount": 1, "measurement": "l lb" },
-        { "id": 2, "name": "Cheese", "amount": 1, "measurement": "cup" },
-        { "id": 3, "name": "Iceberg Lettuce", "amount": 2, "measurement": "cups" },
-        { "id": 4, "name": "Tomatoes", "amount": 2, "measurement": "large" },
-        { "id": 5, "name": "Tortillas", "amount": 3, "measurement": "med" }
+        { "id": 1, "name": "Tilapia", "amount": 1, "unit": "l lb" },
+        { "id": 2, "name": "Cheese", "amount": 1, "unit": "cup" },
+        { "id": 3, "name": "Iceberg Lettuce", "amount": 2, "unit": "cups" },
+        { "id": 4, "name": "Tomatoes", "amount": 2, "unit": "large" },
+        { "id": 5, "name": "Tortillas", "amount": 3, "unit": "med" }
       ],
       "description": [
         "Cook the fish on the grill until hot.",
