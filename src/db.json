@@ -2,110 +2,110 @@
   "recipes": [
     {
       "id": 1,
-      "name": "Baked Salmon",
+      "name": "Pieczony Łosoś",
       "ingredients": [
-        { "id": 1, "name": "Salmon", "amount": 1, "unit": "l lb" },
-        { "id": 2, "name": "Pine Nuts", "amount": 1, "unit": "cup" },
-        { "id": 3, "name": "Butter Lettuce", "amount": 2, "unit": "cups" },
-        { "id": 4, "name": "Yellow Squash", "amount": 1, "unit": "med" },
-        { "id": 5, "name": "Olive Oil", "amount": 0.5, "unit": "cup" },
-        { "id": 6, "name": "Garlic", "amount": 3, "unit": "cloves" }
+        { "id": 1, "name": "Łosoś", "amount": 1, "unit": "kg" },
+        { "id": 2, "name": "Orzeszki Piniowe", "amount": 1, "unit": "szklanka" },
+        { "id": 3, "name": "Sałata Masłowa", "amount": 2, "unit": "szklanki" },
+        { "id": 4, "name": "Żółta Cukinia", "amount": 1, "unit": "średnia" },
+        { "id": 5, "name": "Oliwa z Oliwek", "amount": 0.5, "unit": "szklanka" },
+        { "id": 6, "name": "Czosnek", "amount": 3, "unit": "ząbki" }
       ],
       "description": [
-        "Preheat the oven to 350 degrees.",
-        "Spread the olive oil around a glass baking dish.",
-        "Add the salmon, garlic, and pine nuts to the dish.",
-        "Bake for 15 minutes.",
-        "Add the yellow squash and put back in the oven for 30 mins.",
-        "Remove from oven and let cool for 15 minutes. Add the lettuce and serve."
+        "Rozgrzej piekarnik do 350 stopni.",
+        "Rozprowadź oliwę z oliwek w szklanym naczyniu do pieczenia.",
+        "Dodaj łososia, czosnek i orzeszki piniowe do naczynia.",
+        "Piecz przez 15 minut.",
+        "Dodaj żółtą cukinię i włóż z powrotem do piekarnika na 30 minut.",
+        "Wyjmij z piekarnika i pozostaw do ostygnięcia na 15 minut. Dodaj sałatę i podawaj."
       ]
     },
     {
       "id": 2,
-      "name": "Fish Tacos",
+      "name": "Tacos z Rybą",
       "ingredients": [
-        { "id": 1, "name": "Tilapia", "amount": 1, "unit": "l lb" },
-        { "id": 2, "name": "Cheese", "amount": 1, "unit": "cup" },
-        { "id": 3, "name": "Iceberg Lettuce", "amount": 2, "unit": "cups" },
-        { "id": 4, "name": "Tomatoes", "amount": 2, "unit": "large" },
-        { "id": 5, "name": "Tortillas", "amount": 3, "unit": "med" }
+        { "id": 1, "name": "Tilapia", "amount": 1, "unit": "kg" },
+        { "id": 2, "name": "Ser", "amount": 1, "unit": "szklanka" },
+        { "id": 3, "name": "Sałata Lodowa", "amount": 2, "unit": "szklanki" },
+        { "id": 4, "name": "Pomidory", "amount": 2, "unit": "duże" },
+        { "id": 5, "name": "Tortille", "amount": 3, "unit": "średnie" }
       ],
       "description": [
-        "Cook the fish on the grill until hot.",
-        "Place the fish on the 3 tortillas.",
-        "Top them"
+        "Grilluj rybę, aż będzie gorąca.",
+        "Umieść rybę na 3 tortillach.",
+        "Dodaj dodatki."
       ]
     },
     {
       "id": 3,
-      "name": "Baked Salmon 2",
+      "name": "Pieczony Łosoś 2",
       "ingredients": [
-        { "id": 1, "name": "Salmon", "amount": 1, "unit": "l lb" },
-        { "id": 2, "name": "Pine Nuts", "amount": 1, "unit": "cup" },
-        { "id": 3, "name": "Butter Lettuce", "amount": 2, "unit": "cups" },
-        { "id": 4, "name": "Yellow Squash", "amount": 1, "unit": "med" },
-        { "id": 5, "name": "Olive Oil", "amount": 0.5, "unit": "cup" },
-        { "id": 6, "name": "Garlic", "amount": 3, "unit": "cloves" }
+        { "id": 1, "name": "Łosoś", "amount": 1, "unit": "kg" },
+        { "id": 2, "name": "Orzeszki Piniowe", "amount": 1, "unit": "szklanka" },
+        { "id": 3, "name": "Sałata Masłowa", "amount": 2, "unit": "szklanki" },
+        { "id": 4, "name": "Żółta Cukinia", "amount": 1, "unit": "średnia" },
+        { "id": 5, "name": "Oliwa z Oliwek", "amount": 0.5, "unit": "szklanka" },
+        { "id": 6, "name": "Czosnek", "amount": 3, "unit": "ząbki" }
       ],
       "description": [
-        "Preheat the oven to 350 degrees.",
-        "Spread the olive oil around a glass baking dish.",
-        "Add the salmon, garlic, and pine nuts to the dish.",
-        "Bake for 15 minutes.",
-        "Add the yellow squash and put back in the oven for 30 mins.",
-        "Remove from oven and let cool for 15 minutes. Add the lettuce and serve."
+        "Rozgrzej piekarnik do 350 stopni.",
+        "Rozprowadź oliwę z oliwek w szklanym naczyniu do pieczenia.",
+        "Dodaj łososia, czosnek i orzeszki piniowe do naczynia.",
+        "Piecz przez 15 minut.",
+        "Dodaj żółtą cukinię i włóż z powrotem do piekarnika na 30 minut.",
+        "Wyjmij z piekarnika i pozostaw do ostygnięcia na 15 minut. Dodaj sałatę i podawaj."
       ]
     },
     {
       "id": 4,
-      "name": "Fish Tacos 2",
+      "name": "Tacos z Rybą 2",
       "ingredients": [
-        { "id": 1, "name": "Tilapia", "amount": 1, "unit": "l lb" },
-        { "id": 2, "name": "Cheese", "amount": 1, "unit": "cup" },
-        { "id": 3, "name": "Iceberg Lettuce", "amount": 2, "unit": "cups" },
-        { "id": 4, "name": "Tomatoes", "amount": 2, "unit": "large" },
-        { "id": 5, "name": "Tortillas", "amount": 3, "unit": "med" }
+        { "id": 1, "name": "Tilapia", "amount": 1, "unit": "kg" },
+        { "id": 2, "name": "Ser", "amount": 1, "unit": "szklanka" },
+        { "id": 3, "name": "Sałata Lodowa", "amount": 2, "unit": "szklanki" },
+        { "id": 4, "name": "Pomidory", "amount": 2, "unit": "duże" },
+        { "id": 5, "name": "Tortille", "amount": 3, "unit": "średnie" }
       ],
       "description": [
-        "Cook the fish on the grill until hot.",
-        "Place the fish on the 3 tortillas.",
-        "Top them"
+        "Grilluj rybę, aż będzie gorąca.",
+        "Umieść rybę na 3 tortillach.",
+        "Dodaj dodatki."
       ]
     },
     {
       "id": 5,
-      "name": "Baked Salmon 3",
+      "name": "Pieczony Łosoś 3",
       "ingredients": [
-        { "id": 1, "name": "Salmon", "amount": 1, "unit": "l lb" },
-        { "id": 2, "name": "Pine Nuts", "amount": 1, "unit": "cup" },
-        { "id": 3, "name": "Butter Lettuce", "amount": 2, "unit": "cups" },
-        { "id": 4, "name": "Yellow Squash", "amount": 1, "unit": "med" },
-        { "id": 5, "name": "Olive Oil", "amount": 0.5, "unit": "cup" },
-        { "id": 6, "name": "Garlic", "amount": 3, "unit": "cloves" }
+        { "id": 1, "name": "Łosoś", "amount": 1, "unit": "kg" },
+        { "id": 2, "name": "Orzeszki Piniowe", "amount": 1, "unit": "szklanka" },
+        { "id": 3, "name": "Sałata Masłowa", "amount": 2, "unit": "szklanki" },
+        { "id": 4, "name": "Żółta Cukinia", "amount": 1, "unit": "średnia" },
+        { "id": 5, "name": "Oliwa z Oliwek", "amount": 0.5, "unit": "szklanka" },
+        { "id": 6, "name": "Czosnek", "amount": 3, "unit": "ząbki" }
       ],
       "description": [
-        "Preheat the oven to 350 degrees.",
-        "Spread the olive oil around a glass baking dish.",
-        "Add the salmon, garlic, and pine nuts to the dish.",
-        "Bake for 15 minutes.",
-        "Add the yellow squash and put back in the oven for 30 mins.",
-        "Remove from oven and let cool for 15 minutes. Add the lettuce and serve."
+        "Rozgrzej piekarnik do 350 stopni.",
+        "Rozprowadź oliwę z oliwek w szklanym naczyniu do pieczenia.",
+        "Dodaj łososia, czosnek i orzeszki piniowe do naczynia.",
+        "Piecz przez 15 minut.",
+        "Dodaj żółtą cukinię i włóż z powrotem do piekarnika na 30 minut.",
+        "Wyjmij z piekarnika i pozostaw do ostygnięcia na 15 minut. Dodaj sałatę i podawaj."
       ]
     },
     {
       "id": 6,
-      "name": "Fish Tacos 3",
+      "name": "Tacos z Rybą 3",
       "ingredients": [
-        { "id": 1, "name": "Tilapia", "amount": 1, "unit": "l lb" },
-        { "id": 2, "name": "Cheese", "amount": 1, "unit": "cup" },
-        { "id": 3, "name": "Iceberg Lettuce", "amount": 2, "unit": "cups" },
-        { "id": 4, "name": "Tomatoes", "amount": 2, "unit": "large" },
-        { "id": 5, "name": "Tortillas", "amount": 3, "unit": "med" }
+        { "id": 1, "name": "Tilapia", "amount": 1, "unit": "kg" },
+        { "id": 2, "name": "Ser", "amount": 1, "unit": "szklanka" },
+        { "id": 3, "name": "Sałata Lodowa", "amount": 2, "unit": "szklanki" },
+        { "id": 4, "name": "Pomidory", "amount": 2, "unit": "duże" },
+        { "id": 5, "name": "Tortille", "amount": 3, "unit": "średnie" }
       ],
       "description": [
-        "Cook the fish on the grill until hot.",
-        "Place the fish on the 3 tortillas.",
-        "Top them"
+        "Grilluj rybę, aż będzie gorąca.",
+        "Umieść rybę na 3 tortillach.",
+        "Dodaj dodatki."
       ]
     }
   ]
