@@ -8,11 +8,13 @@ import {
 import HomePage from "./pages/HomePage.tsx";
 import AddRecipePage from "./pages/AddRecipePage.tsx";
 import NotFoundPage from "./pages/NotFoundPage.tsx";
+import RecipePage from "./pages/RecipePage.tsx";
 
 const router = createBrowserRouter(
     createRoutesFromElements(
         <Route>
             <Route index element={<HomePage />}/>
+            <Route path="/recipes/:id" element={<RecipePage />}/>
             <Route path="/add-recipe" element={<AddRecipePage />}/>
             <Route path='*' element={<NotFoundPage />}/>
         </Route>

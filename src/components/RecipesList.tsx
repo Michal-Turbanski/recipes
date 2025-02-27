@@ -7,9 +7,13 @@ function RecipesList() {
 
     useEffect(() => {
         const fetchRecipes = async () => {
-            const res = await fetch("/api/recipes");
-            const data = await res.json();
-            setRecipes(data);
+            try {
+                const res = await fetch("/api/recipes");
+                const data = await res.json();
+                setRecipes(data);
+            } catch (error) {
+                console.error(error);
+            }
         };
 
         fetchRecipes();
@@ -19,7 +23,7 @@ function RecipesList() {
         <div className="container mx-auto mt-10 p-4">
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
                 {recipes.map((recipe: RecipeType) => (
-                    <Recipe key={recipe.id} recipe={recipe} />
+                    <Recipe key={recipe.id} recipe={recipe}/>
                 ))}
             </div>
         </div>

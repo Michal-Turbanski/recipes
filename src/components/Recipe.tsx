@@ -13,12 +13,6 @@ function Recipe({ recipe }: { recipe: RecipeType }) {
                     </li>
                 ))}
             </ul>
-            <h2 className="text-2xl mt-4 mb-2">Przygotowanie: </h2>
-            <ol>
-                {recipe.description.map((step, index) => (
-                    <li className="list-inside list-decimal" key={index}>{step}</li>
-                ))}
-            </ol>
             <div className="mt-auto flex justify-center">
             <Link to={`/recipes/${recipe.id}`} className="bg-amber-200 px-4 py-2 text-xl hover:bg-amber-300 transition-all rounded-xl mt-4 block w-50 text-center self-center">Zobacz przepis</Link>
             </div>
