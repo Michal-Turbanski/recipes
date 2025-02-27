@@ -3,7 +3,6 @@ import {RecipeType} from "../types/recipe.type.ts";
 import Recipe from "./Recipe.tsx";
 
 function RecipesList() {
-
     const [recipes, setRecipes] = useState([]);
 
     useEffect(() => {
@@ -14,15 +13,16 @@ function RecipesList() {
         };
 
         fetchRecipes();
-
     }, []);
 
     return (
-        <>
-            {recipes.map((recipe: RecipeType) => (
-                <Recipe key={recipe.id} recipe={recipe} />
-            ))}
-        </>
+        <div className="container mx-auto mt-10 p-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
+                {recipes.map((recipe: RecipeType) => (
+                    <Recipe key={recipe.id} recipe={recipe} />
+                ))}
+            </div>
+        </div>
     );
 }
 
