@@ -7,7 +7,7 @@ function RecipesList() {
 
     useEffect(() => {
         const fetchRecipes = async () => {
-            const res = await fetch("http://localhost:8000/recipes");
+            const res = await fetch("/api/recipes");
             const data = await res.json();
             setRecipes(data);
         };
