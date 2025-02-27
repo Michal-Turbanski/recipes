@@ -1,9 +1,11 @@
 import Navbar from "../components/Navbar.tsx";
 import {useState, useEffect} from "react";
-import {useParams} from "react-router-dom";
+import {useParams, useNavigate} from "react-router-dom";
 import {RecipeType} from "../types/recipe.type.ts";
 
 function RecipePage() {
+
+    const navigate = useNavigate();
 
     const {id} = useParams();
     const [recipe, setRecipe] = useState<RecipeType | null>(null);
@@ -16,6 +18,7 @@ function RecipePage() {
                 setRecipe(data);
             } catch (error) {
                 console.error(error);
+                return navigate('/404');
             }
         };
 
