@@ -1,4 +1,5 @@
 import {RecipeType} from "../types/recipe.type.ts";
+import { Link } from 'react-router-dom';
 
 function Recipe({ recipe }: { recipe: RecipeType }) {
     return (
@@ -19,7 +20,7 @@ function Recipe({ recipe }: { recipe: RecipeType }) {
                 ))}
             </ol>
             <div className="mt-auto flex justify-center">
-            <a href="#" className="bg-amber-200 px-4 py-2 text-xl hover:bg-amber-300 transition-all rounded-xl mt-4 block w-50 text-center self-center">Zobacz przepis</a>
+            <Link to={`/recipes/${recipe.id}`} className="bg-amber-200 px-4 py-2 text-xl hover:bg-amber-300 transition-all rounded-xl mt-4 block w-50 text-center self-center">Zobacz przepis</Link>
             </div>
         </div>
     );

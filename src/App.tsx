@@ -6,9 +6,15 @@ import {
 } from 'react-router-dom';
 
 import HomePage from "./pages/HomePage.tsx";
+import AddRecipePage from "./pages/AddRecipePage.tsx";
 
 const router = createBrowserRouter(
-    createRoutesFromElements(<Route index element={<HomePage />}/>)
+    createRoutesFromElements(
+        <Route>
+            <Route index element={<HomePage />}/>
+            <Route path="/add-recipe" element={<AddRecipePage />}/>
+        </Route>
+    )
 )
 
 function App() {
