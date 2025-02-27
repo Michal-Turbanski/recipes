@@ -1,12 +1,19 @@
-import Navbar from "./components/Navbar.tsx";
-import RecipesList from "./components/RecipesList.tsx";
+import {
+    Route,
+    createBrowserRouter,
+    createRoutesFromElements,
+    RouterProvider,
+} from 'react-router-dom';
+
+import HomePage from "./pages/HomePage.tsx";
+
+const router = createBrowserRouter(
+    createRoutesFromElements(<Route index element={<HomePage />}/>)
+)
 
 function App() {
   return (
-      <div className="bg-gray-200 min-h-screen">
-          <Navbar/>
-          <RecipesList/>
-      </div>
+        <RouterProvider router={router} />
   )
 }
 
