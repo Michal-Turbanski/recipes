@@ -17,7 +17,7 @@ function RecipesList() {
 
     return (
         <div className="container mx-auto mt-10 p-4">
-            <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
                 {recipes.map((recipe: RecipeType) => (
                     <Recipe key={recipe.id} recipe={recipe} />
                 ))}
