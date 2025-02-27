@@ -2,7 +2,7 @@ import {RecipeType} from "../types/recipe.type.ts";
 
 function Recipe({ recipe }: { recipe: RecipeType }) {
     return (
-        <div key={recipe.id} className="bg-gray-100 rounded-xl shadow-lg overflow-hidden p-8">
+        <div key={recipe.id} className="bg-gray-100 rounded-xl shadow-lg overflow-hidden p-8 flex flex-col">
             <h1 className="text-4xl mb-4">{recipe.name}</h1>
             <h2 className="text-2xl mb-2">Składniki:</h2>
             <ul className="list-disc list-inside">
@@ -18,6 +18,9 @@ function Recipe({ recipe }: { recipe: RecipeType }) {
                     <li className="list-inside list-decimal" key={index}>{step}</li>
                 ))}
             </ol>
+            <div className="mt-auto flex justify-center">
+            <a href="#" className="bg-amber-200 px-4 py-2 text-xl hover:bg-amber-300 transition-all rounded-xl mt-4 block w-50 text-center self-center">Zobacz przepis</a>
+            </div>
         </div>
     );
 }
