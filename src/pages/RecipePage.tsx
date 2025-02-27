@@ -29,7 +29,7 @@ function RecipePage() {
         <>
             <Navbar/>
             {!recipe ? (
-                <h1>Ładowanie...</h1>
+                <h1></h1>
             ) : (
                 <div className="bg-gray-100 rounded-xl shadow-lg overflow-hidden p-8 container mx-auto mt-10">
                     <h1 className="text-4xl mb-12">{recipe.name}</h1>
