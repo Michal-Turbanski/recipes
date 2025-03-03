@@ -25,6 +25,21 @@ function RecipePage() {
         fetchRecipe();
     }, []);
 
+    const onDeleteClick = (id: number) => {
+        const confirm = window.confirm('Na pewno chcesz usunąć ten przepis?');
+        if (!confirm) return;
+
+        try {
+            fetch(`/api/recipes/${id}`, {
+                method: "DELETE",
+            });
+        } catch (error) {
+            console.error(error);
+        }
+
+        navigate('/');
+    }
+
     return (
         <>
             <Navbar/>
@@ -53,6 +68,12 @@ function RecipePage() {
                             </ol>
                         </div>
                     </div>
+                    <button
+                        className="bg-red-500 px-2 py-1 text-lg hover:bg-red-700 cursor-pointer transition-all rounded-xl mt-4 block w-50 text-center self-center cursor-pointer text-white"
+                        onClick={() => onDeleteClick(recipe.id)}
+                    >
+                        Usuń przepis
+                    </button>
                 </div>
             )}
         </>
