@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar.tsx";
 import {useState, useEffect} from "react";
-import {useParams, useNavigate} from "react-router-dom";
+import {useParams, useNavigate, Link} from "react-router-dom";
 import {RecipeType} from "../types/recipe.type.ts";
 
 function RecipePage() {
@@ -68,12 +68,20 @@ function RecipePage() {
                             </ol>
                         </div>
                     </div>
-                    <button
-                        className="bg-red-500 px-2 py-1 text-lg hover:bg-red-700 cursor-pointer transition-all rounded-xl mt-4 block w-50 text-center self-center cursor-pointer text-white"
-                        onClick={() => onDeleteClick(recipe.id)}
-                    >
-                        Usuń przepis
-                    </button>
+                    <div className="flex gap-8">
+                        <Link
+                            className="bg-blue-500 px-2 py-1 text-lg hover:bg-blue-700 cursor-pointer transition-all rounded-xl mt-4 block w-50 text-center self-center text-white"
+                            to={`/edit-recipe/${recipe.id}`}
+                        >
+                            Edytuj przepis
+                        </Link>
+                        <button
+                            className="bg-red-500 px-2 py-1 text-lg hover:bg-red-700 cursor-pointer transition-all rounded-xl mt-4 block w-50 text-center self-center text-white"
+                            onClick={() => onDeleteClick(recipe.id)}
+                        >
+                            Usuń przepis
+                        </button>
+                    </div>
                 </div>
             )}
         </>
