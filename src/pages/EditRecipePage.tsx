@@ -50,8 +50,18 @@ function EditRecipePage() {
         setIngredients([...ingredients, { id: ingredients.length + 1, name: "", amount: "", unit: "" }]);
     };
 
+    const handleRemoveIngredient = (index: number) => {
+        const newIngredients = ingredients.filter((_, i) => i !== index);
+        setIngredients(newIngredients);
+    };
+
     const handleAddStep = () => {
         setDescription([...description, ""]);
+    };
+
+    const handleRemoveStep = (index: number) => {
+        const newDescription = description.filter((_, i) => i !== index);
+        setDescription(newDescription);
     };
 
     const handleSubmit = async (e: React.FormEvent) => {
@@ -93,7 +103,7 @@ function EditRecipePage() {
                     <div className="mb-4">
                         <h2 className="text-2xl mb-2">Składniki</h2>
                         {ingredients.map((ingredient, index) => (
-                            <div key={index} className="mb-2 grid grid-cols-1 lg:grid-cols-3 gap-4">
+                            <div key={index} className="mb-2 grid grid-cols-1 lg:grid-cols-4 gap-4">
                                 <input
                                     type="text"
                                     placeholder="Nazwa składnika"
@@ -118,6 +128,13 @@ function EditRecipePage() {
                                     className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mb-2"
                                     required
                                 />
+                                <button
+                                    type="button"
+                                    onClick={() => handleRemoveIngredient(index)}
+                                    className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline cursor-pointer"
+                                >
+                                    Usuń
+                                </button>
                             </div>
                         ))}
                         <button
@@ -131,13 +148,20 @@ function EditRecipePage() {
                     <div className="mb-4">
                         <h2 className="text-2xl mb-2">Opis</h2>
                         {description.map((step, index) => (
-                            <div key={index} className="mb-2">
+                            <div key={index} className="mb-2 grid grid-cols-1 lg:grid-cols-2 gap-4">
                                 <textarea
                                     value={step}
                                     onChange={(e) => handleDescriptionChange(index, e.target.value)}
                                     className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                                     required
                                 />
+                                <button
+                                    type="button"
+                                    onClick={() => handleRemoveStep(index)}
+                                    className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline cursor-pointer"
+                                >
+                                    Usuń
+                                </button>
                             </div>
                         ))}
                         <button
